@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+    display: flex;
+    /* height: 100vh; */
+}
+
+.menue {
+    background: black;
+    width: 20%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.content {
+    width: 80%;
+    padding: 40px;
+}
+
+.icon-img {
+    width: 100%;
+    display: flex;
+    height: auto;
+    position: relative;
+}
+
+.icon-img img {
+    height: 100px;
+    /* position: fixed; */
+    /* left: 40px; */
+    display: flex;
+    margin: auto;
+}
+
+.icon-img .closebtn {
+    position: absolute;
+    /* top: 0; */
+    right: 25px;
+    font-size: 36px;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    color: #818181;
+}
+
+/* sample test code */
+.sidenav {
+    /* height: 100%; */
+    /* width: 0; */
+    /* position: fixed; */
+    z-index: 1;
+    top: 0;
+    /* left: 0; */
+    /* background-color: #111; */
+    overflow-x: visible;
+    transition: 0.5s;
+    text-align: center;
+    /* margin-top: 100px; */
+    /* margin: 100px 0px 0px 75px; */
+    /* display: flex; */
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+
+.custom-template{
+    margin: 10px 0px;
+    display: none;
+}
+
+.custom-template .card img {
+    height: 250px;
+    /* width: 70px; */
+}
+
+.custom-template .card h5 {
+    font-weight: 600;
+}
+
+.custom-template .card p {
+    color: #818181;
+    font-size: 14px;
+}
+
+
+
+
+
+/* .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+} */
